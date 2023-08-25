@@ -60,3 +60,27 @@ em {
 .bodytext {
     color: white;
 }
+
+[data-custom-class="title"],
+[data-custom-class="subtitle"],
+[data-custom-class="body_text"],
+[data-custom-class="heading_1"],
+[data-custom-class="link"] {
+    color: white;
+}
+
+strong, em {
+    color: white;
+}
+
+/* Specific styling for the link to make it stand out more */
+[data-custom-class="link"] {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* For any other elements like spans and divs that might be nested but not specifically targeted */
+[data-custom-class="body"] span,
+[data-custom-class="body"] div {
+    color: white;
+}
