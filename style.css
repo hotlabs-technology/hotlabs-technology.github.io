@@ -7,6 +7,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    overflow: auto;
 }
 
 .content {
@@ -17,9 +18,8 @@ body {
 }
 
 img {
-    width: 600pt;
-    height: 600pt;
-    object-fit: contain;
+    max-width: 90%;
+    max-height: 60vh;
 }
 
 .links {
@@ -38,4 +38,11 @@ img {
 
 .links a:hover {
     color: #bbbbbb;
+}
+
+.privacy-content {
+    padding: 100pt;
+    text-align: justify;
+    max-width: 800px;
+    color: white;
 }
