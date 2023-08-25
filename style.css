@@ -1,17 +1,14 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
     background-color: #E63733;
-}
-
-.logo-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin: 0;
 }
 
-.logo-container img {
-    max-width: 100%;
-    height: auto;
+img {
+    width: 50%;          /* Reducing the size to 50% */
+    max-width: 100%;     /* This ensures the image never exceeds its container or the viewport width */
+    height: auto;        /* To maintain the aspect ratio of the image */
 }
