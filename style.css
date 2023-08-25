@@ -8,6 +8,7 @@ body {
     justify-content: center;
     flex-direction: column;
     overflow: auto;
+    color: white;  /* Added to make the body text white */
 }
 
 .content {
@@ -44,5 +45,18 @@ img {
     padding: 100pt;
     text-align: justify;
     max-width: 800px;
+    color: white;  /* Explicitly setting the color again for consistency */
+}
+
+/* New styles for heading_1, em, and bodytext */
+.heading_1 {
+    color: white;
+}
+
+em {
+    color: white;
+}
+
+.bodytext {
     color: white;
 }
