@@ -1,16 +1,39 @@
-body, html {
+body {
+    font-family: Arial, sans-serif;
     background-color: #E63733;
-    height: 100%;
     margin: 0;
+    height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
-    overflow: hidden; /* Ensure there's no scroll */
+    justify-content: center;
+    flex-direction: column;
 }
 
-.logo-container img {
-    width: 600pt;       /* Setting the width */
-    height: 600pt;      /* Setting the height */
-    display: block;     /* To remove any extra space around the image */
-    margin: auto;       /* Centering the image in its container */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    width: 600pt;
+    height: 600pt;
+    object-fit: contain;
+}
+
+.links {
+    margin-top: 50pt;
+    font-size: 20pt;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #bbbbbb;
 }
