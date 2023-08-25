@@ -9,6 +9,7 @@ body {
     flex-direction: column;
     overflow: auto;
     color: white;  /* Added to make the body text white */
+    height: auto
 }
 
 .content {
