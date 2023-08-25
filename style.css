@@ -24,10 +24,12 @@ img {
 
 .links {
     margin-top: 50pt;
-    font-size: 20pt;
+    font-size: 15pt;
+    display: flex;
+    align-items: center;
 }
 
-.links a {
+.links a, .links span {
     color: white;
     text-decoration: none;
     margin: 0 10px;
