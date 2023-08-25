@@ -8,8 +8,7 @@ body {
     justify-content: center;
     flex-direction: column;
     overflow: auto;
-    color: white;  /* Added to make the body text white */
-    height: auto
+    color: white;
 }
 
 .content {
@@ -29,6 +28,16 @@ img {
     font-size: 15pt;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    position: relative;
+}
+
+.divider {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .links a, .links span {
@@ -46,10 +55,9 @@ img {
     padding: 100pt;
     text-align: justify;
     max-width: 800px;
-    color: white;  /* Explicitly setting the color again for consistency */
+    color: white;
 }
 
-/* New styles for heading_1, em, and bodytext */
 .heading_1 {
     color: white;
 }
@@ -78,13 +86,11 @@ strong, em {
     color: white;
 }
 
-/* Specific styling for the link to make it stand out more */
 [data-custom-class="link"] {
     text-decoration: underline;
     font-weight: bold;
 }
 
-/* For any other elements like spans and divs that might be nested but not specifically targeted */
 [data-custom-class="body"] span,
 [data-custom-class="body"] div {
     color: white;
