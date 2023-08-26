@@ -3,13 +3,16 @@ body, html {
     background-color: #E63733;
     margin: 0;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: white;
 }
 
-body.pp-container {
+body.home-page, html.home-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body.privacy-policy {
     height: auto;
 }
 
