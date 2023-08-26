@@ -6,7 +6,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     overflow: auto;
     color: white;
 }
@@ -26,13 +25,6 @@ img {
 .links {
     margin-top: 50pt;
     font-size: 15pt;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.divider {
-    margin: 0 10px;
 }
 
 .links a {
@@ -53,31 +45,18 @@ img {
     color: white;
 }
 
-.heading_1 {
-    color: white;
-}
-
-em {
-    color: white;
-}
-
-.bodytext {
-    color: white;
-}
-
+.heading_1,
+.em,
+.bodytext,
 [data-custom-class="title"],
 [data-custom-class="subtitle"],
 [data-custom-class="body_text"],
 [data-custom-class="heading_1"],
+[data-custom-class="link"],
+.block-component,
+strong,
+em,
 [data-custom-class="link"] {
-    color: white;
-}
-
-.block-component {
-    color: white;
-}
-
-strong, em {
     color: white;
 }
 
