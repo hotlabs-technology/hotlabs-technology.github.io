@@ -1,14 +1,12 @@
-body {
+body, html {
     font-family: Arial, sans-serif;
     background-color: #E63733;
     margin: 0;
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: auto;
     color: white;
-    height: auto;
 }
 
 .content {
@@ -18,13 +16,13 @@ body {
     text-align: center;
 }
 
-img {
+.logo {
     max-width: 90%;
     max-height: 60vh;
+    margin-bottom: 50pt;
 }
 
 .links {
-    margin-top: 50pt;
     font-size: 15pt;
 }
 
@@ -46,17 +44,14 @@ img {
     color: white;
 }
 
-.heading_1,
-.em,
-.bodytext,
+/* Additional CSS for white text color */
+.heading_1, .em, .bodytext,
 [data-custom-class="title"],
 [data-custom-class="subtitle"],
 [data-custom-class="body_text"],
 [data-custom-class="heading_1"],
 [data-custom-class="link"],
-.block-component,
-strong,
-em,
+.block-component, strong, em,
 [data-custom-class="link"] {
     color: white;
 }
